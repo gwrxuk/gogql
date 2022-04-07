@@ -1,0 +1,12 @@
+# GraphQL schema example
+#
+# https://gqlgen.com/getting-started/
+
+
+type Projects {
+  info: String!
+}
+
+type Query {
+  last_project(n:Int!): [Projects]!
+}
